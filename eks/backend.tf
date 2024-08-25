@@ -10,7 +10,7 @@ terraform {
     bucket         = "mern-stack-demo"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "dynamodb-file
+    dynamodb_table = "dynamodb-file"
     encrypt        = true
   }
 }
